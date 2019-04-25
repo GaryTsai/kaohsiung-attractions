@@ -1,0 +1,211 @@
+@media screen and (max-width: 960px) {
+/*------------------------------------Search Result CSS(960)---------------------------------------------*/
+
+  .modal-dialog {
+  margin-left: 20%;
+  margin-top: 25%;
+  width:200%;
+  }
+  .post-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .post-article {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .post-article:last-child {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+    margin-bottom: 24px;
+  }
+
+  .post-img {
+    flex: 1;
+    width: 100%;
+    height: 220px;
+    min-width: 100%;
+  }
+
+  .post-content {
+    flex: 1;
+    display: inline-block;
+    width: 100%;
+  }
+
+/*------------------------------------Search-Side CSS 960---------------------------------------------*/
+
+  .selectLocation .select {
+    width: 100%;
+  }
+
+  .date-time {
+    width: 100%;
+  }
+
+  .search-side {
+    min-width: 300px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+
+  /*
+    .location {
+        cursor: pointer;
+        height: 51px;
+        max-height: 0;
+        overflow: hidden;
+
+    }
+
+
+    .location:hover {
+        background: #9B9B9B;
+    }
+
+    .selectLocation .select {
+        max-height: 0;
+        width: 0px;
+    }
+
+    .date {
+        cursor: pointer;
+        height: 51px;
+        overflow: hidden;
+    }
+
+    .date:hover {
+        background: #9B9B9B;
+    }
+
+    .date-time {
+        max-height: 0px;
+        overflow: hidden;
+    }
+
+    .categories {
+        cursor: pointer;
+        line-height: 1px;
+        height: 51px;
+        overflow: hidden;
+    }
+
+    .categories:hover {
+        background: #9B9B9B;
+    }
+*/
+  .custom-checkbox {
+    max-height: 0px;
+    overflow: hidden;
+  }
+
+  .search-side {
+
+    flex: 1;
+    max-width: 100%;
+    width: 100%;
+    max-height: 127px;
+
+  }
+/*------------------------------------Personal Page CSS 750---------------------------------------------*/
+
+.post-list.singlecontent {
+ width: 100%;
+ padding: 0%;
+}
+.post-content-single{
+  border: 0px;
+}
+.modal-dialog {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top:40%;
+}
+.modal.fade.show{
+  padding-right: 0px;
+
+}
+
+/*-----------------------------------Search Result CSS 750---------------------------------------------*/
+
+  .content {
+    margin-left: 0%;
+    margin-right: 0%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .post-list {
+    flex: 1;
+    display: inline-block;
+    max-width: 650px;
+    width: 100%;
+    padding:0% 9.6%;
+    margin-left: 0px;
+  }
+
+  .post-result {
+    display: none;
+
+  }
+
+  .post-search {
+    padding: 0px 8%;
+
+  }
+
+  .post-navigation ul.pagination {
+    margin-top: 24px;
+    justify-content: center !important;
+  }
+
+  .categories-mobile {
+    visibility: hidden;
+
+
+  }
+
+/*-----------------------------------LOGO Brand 750---------------------------------------------*/
+  .bg-purple {
+    justify-content: center;
+
+  }
+
+  .navbar-flex {
+    display: contents;
+
+  }
+
+  .logo-brand {
+    margin-left: 70px;
+    margin-right: 145.5px;
+    flex: 1, 0, 44px;
+    ;
+    font-family: 'Roboto Italic ', sans-serif;
+    /* background-image: url(./logo.png); */
+    background-repeat: no-repeat;
+
+    background-position: center center;
+    width: 157px;
+    height: 44px;
+    min-width: 157px;
+  }
+
+}
+@media screen and (min-width: 576px) {
+.modal-dialog {
+  /* max-width: 500px; */
+  margin: 1.75rem auto;
+  max-width: 65%;
+}
+}
